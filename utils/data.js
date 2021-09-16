@@ -3,6 +3,7 @@ const data = {
         {
             id: 1,
             name: 'Product 1',
+            slug: 'product-1',
             price: 100,
             description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec euismod, nisl eget aliquam consectetur, nisl nunc aliquet nunc, euismod aliquam eros nunc euismod nunc. Donec euismod, nisl eget aliquam consectetur.',
             image: 'https://picsum.photos/id/1/200/300',
@@ -15,6 +16,7 @@ const data = {
         {
             id: 2,
             name: 'Product 2',
+            slug: 'product-2',
             price: 120,
             description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec euismod, nisl eget aliquam consectetur, nisl nunc aliquet nunc, euismod aliquam eros nunc euismod nunc. Donec euismod, nisl eget aliquam consectetur.',
             image: 'https://picsum.photos/id/4/200/300',
@@ -27,6 +29,7 @@ const data = {
         {
             id: 3,
             name: 'Product 3',
+            slug: 'product-3',
             price: 20,
             description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec euismod, nisl eget aliquam consectetur, nisl nunc aliquet nunc, euismod aliquam eros nunc euismod nunc. Donec euismod, nisl eget aliquam consectetur.',
             image: 'https://picsum.photos/id/5/200/300',
@@ -39,6 +42,7 @@ const data = {
         {
             id: 4,
             name: 'Product 4',
+            slug: 'product-4',
             price: 120,
             description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec euismod, nisl eget aliquam consectetur, nisl nunc aliquet nunc, euismod aliquam eros nunc euismod nunc. Donec euismod, nisl eget aliquam consectetur.',
             image: 'https://picsum.photos/id/2/200/300',
@@ -51,6 +55,7 @@ const data = {
         {
             id: 5,
             name: 'Product 5',
+            slug: 'product-5',
             price: 70,
             description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec euismod, nisl eget aliquam consectetur, nisl nunc aliquet nunc, euismod aliquam eros nunc euismod nunc. Donec euismod, nisl eget aliquam consectetur.',
             image: 'https://picsum.photos/id/6/200/300',
