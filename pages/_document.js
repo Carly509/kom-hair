@@ -8,7 +8,6 @@ export default class myDocument extends Document {
       <Html lang="en">
         <Head>
           <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" />
-          <meta name="viewport" content="minimum-scale=1, initial-scale=1, width=device-width" />
         </Head>
         <body>
           <Main />
@@ -24,6 +23,7 @@ myDocument.getInitialProps = async ctx => {
     const originalRenderPage = ctx.renderPage;
     ctx.renderPage = () => { 
         return originalRenderPage({
+      // eslint-disable-next-line react/display-name
       enhanceApp: (App) => (props) => sheets.collect(<App {...props} />),
     });
   };

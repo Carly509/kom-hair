@@ -102,6 +102,11 @@ form: {
       width: 250,
     },
   },
+  button: {
+    width: 239,
+    height: 49,
+    background: '#9B1F78',
+  },
 });
 
 export default useStyles;
