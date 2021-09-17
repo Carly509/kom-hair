@@ -107,6 +107,29 @@ form: {
     height: 49,
     background: '#9B1F78',
   },
+  productName: {
+    fontFamily: 'Poppins',
+    fontWeight: 500,
+    fontSize: '18px',
+    lineHeight: '27px',
+    color: '#000000',
+  },
+  productPrice: {
+    fontFamily: 'Poppins',
+    fontSize: '18px',
+    lineHeight: '27px',
+    color: 'rgba(0, 0, 0, 0.69)',
+    marginTop: -20,
+  },
+  productDescription: {
+    fontFamily: 'Poppins',
+    fontSize: '13px',
+    lineHeight: '19px',
+  },
+  cancelButton: {
+    float:'right',
+
+  },
 });
 
 export default useStyles;
